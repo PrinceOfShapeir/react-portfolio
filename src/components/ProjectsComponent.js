@@ -4,17 +4,20 @@ import Figure from 'react-bootstrap/Figure';
 import Row from 'react-bootstrap/Row'; 
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container'
+import background from '../andy-holmes-LUpDjlJv4_c-unsplash.jpg'
 function Projects () {
 
     return (
 
 
-        <div>
+        <div className="text-center bg-dark" style={{
+            backgroundImage: `url(${background})`
+        }}>
             <Container fluid>
                 <Row>
 
-                    <Col xs={0} sm={2}>Test</Col>
-                    <Col xs>
+                    <Col xs={0} sm={2}><a href="/" className="text-primary">Home</a></Col>
+                    <Col xs className="bg-light" style={{opacity: .9}}>
 
                     <h1>Projects</h1>
 
@@ -63,7 +66,7 @@ function Projects () {
 
                         <p>Players could download their trained AI, train it offline, and upload the saved model to the browser, in which case it would stand in for the default model. Models saved and trained in this way would begin with all the traits of their default ancestor, but their tendencies could evolve independently of the base model, depending on the time invested.</p>
 
-                        <p><bold>Limitations</bold></p>
+                        <p><b>Limitations</b></p>
                         <p>There were of course limitations, as my laptop began crashing, I was limited to fifty iterations per training cycle, rather than the millions generally needed to produce optimal alignment from a stochastic process. Furthermore the specific reinforcement values and training intensity are arbitrary and were not scientifically derived, although the users can download a copy of the base AI and implement their own custom training regimen. There is also the inherent limitation in that physical systems have massive advantages in paralell processing, which cannot be matched by classical computing.</p>
                             
                         <p>For a matter of perspective, the model plays about as well as a novice four year old human, to whom trillions of neurons are available, with a mere 20 simulated neurons. Although it is not capable of meta-cognition, the model does support simple mimicry, which is a basic strategy also employed by higher lifeforms.</p>
@@ -74,7 +77,7 @@ function Projects () {
 
                     </Col>
 
-                    <Col xs={0} sm={2}>Test</Col>
+                    <Col xs={0} sm={2}><a href="/">Contact</a></Col>
                     
                 </Row>
 

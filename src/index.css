@@ -7,11 +7,63 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.heading, .a {
-  font-weight: 700;
-}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.carousel, .img {
+  width:auto;
+  height:auto;
+}
+
+.carousel-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.carousel-caption {
+   left: 0;
+   position: relative;
+   text-align: center;
+}
+
+@media (max-width: 420px){
+  .carousel{
+    font-size: .1rem;
+  }
+}
+@media (max-width: 720px){
+  .carousel{
+    font-size: .14rem;
+  }
+}
+@media (min-width: 720px){
+  .carousel{
+    width: 100%;
+  }
+  .carousel-head {
+    font-weight: 700;
+    font-size: 5vh;
+  }
+  .carousel-caption{
+    margin-bottom: 3vw;
+  }
+}
+@media (min-width: 960px){
+ 
+  .carousel-caption {
+    font-size: 5vh;
+    margin-bottom: 3vw;
+  }
+    .carousel-head {
+    font-weight: 700;
+  }
+}
+@media only screen and (max-width: 720px) {
+    .carousel-head {
+        display: none;
+    }
 }

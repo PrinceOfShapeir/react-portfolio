@@ -10,13 +10,13 @@ function Projects () {
     return (
 
 
-        <div className="text-center bg-dark" style={{
+        <div className="text-center" style={{
             backgroundImage: `url(${background})`
         }}>
             <Container fluid>
                 <Row>
 
-                    <Col xs={0} sm={2}><a href="/" className="text-primary">Home</a></Col>
+                    <Col xs={0} sm={2}><a href="/" className="text-primary bg-light" style={{opacity: .9}}>Home</a></Col>
                     <Col xs className="bg-light" style={{opacity: .9}}>
 
                     <h1>Projects</h1>
@@ -77,7 +77,7 @@ function Projects () {
 
                     </Col>
 
-                    <Col xs={0} sm={2}><a href="/">Contact</a></Col>
+                    <Col xs={0} sm={2}><a href="/" className="text-info bg-dark" style={{opacity:.9}}>Contact</a></Col>
                     
                 </Row>
 

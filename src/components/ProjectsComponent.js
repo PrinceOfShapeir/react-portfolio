@@ -1,5 +1,5 @@
 
-import React, { Component } from 'react';
+import React from 'react';
 import {Figure, Row, Col, Container, Accordion, Card} from 'react-bootstrap';
 import background from '../andy-holmes-LUpDjlJv4_c-unsplash.jpg'
 function Projects () {

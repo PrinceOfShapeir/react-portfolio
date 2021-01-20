@@ -67,7 +67,7 @@ function Projects () {
                             </Card>
                         </Accordion>                 
                         <a href="https://github.com/PrinceOfShapeir/PhoneNumberTranslator">Github Link</a>
-                        <p>Tired of phone number acronyms when you're using a nonstandard keypad? This app is here to help. Simply type in the acronym and the app tells you the 9-digit code associated with that acronym.</p>
+                        <p>Tired of phone number acronyms when you're using a nonstandard keypad? This app is here to help. Simply type in the acronym and the app tells you the 9-digit code associated with that acronym. Built with React Native.</p>
                         
 
                         <h3>Poker Hand Calculator</h3>

@@ -5,18 +5,19 @@ import Main from './components/MainComponent';
 import Projects from './components/ProjectsComponent';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+let baseUrl = process.env.PUBLIC_URL;
 function App() {
   return (
     <div>
       <Router>
         <Switch>
-          <Route path="/home">
+          <Route path={baseUrl + "/home"}>
             <Main />
           </Route>
-          <Route path="/projects">
+          <Route path={baseUrl + "/projects"}>
             <Projects />
           </Route>
-          <Route path="/">
+          <Route path={baseUrl + "/"}>
             <Main />
           </Route>     
         </Switch>

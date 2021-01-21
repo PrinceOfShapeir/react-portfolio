@@ -2,6 +2,8 @@
 import React from 'react';
 import {Figure, Row, Col, Container, Accordion, Card} from 'react-bootstrap';
 import background from '../andy-holmes-LUpDjlJv4_c-unsplash.jpg'
+
+let baseUrl = process.env.PUBLIC_URL;
 function Projects () {
 
     return (
@@ -13,9 +15,8 @@ function Projects () {
             <Container fluid>
                 <Row>
 
-                    <Col xs={0} sm={2}><a href="/" className="text-primary bg-light" style={{opacity: .9}}>Home</a></Col>
+                    <Col xs={0} sm={2}><a href={baseUrl + "/"} className="text-primary bg-light" style={{opacity: .9}}>Home</a></Col>
                     <Col xs className="bg-light" style={{opacity: .9}}>
-
                     <h1>Projects</h1>
 
 
@@ -38,7 +39,7 @@ function Projects () {
                                     <Figure>
                                         <Figure.Image 
                                         alt="numberBefore.png"
-                                        src="/numberBefore.png"           
+                                        src={baseUrl + "/numberBefore.png"  }         
                                         />
                                         <Figure.Caption>
                                             Part 1
@@ -56,7 +57,7 @@ function Projects () {
                                     <Figure>
                                         <Figure.Image 
                                         alt="numberAfter.png"
-                                        src="/numberAfter.png"           
+                                        src={baseUrl + "/numberAfter.png"}
                                         />
                                         <Figure.Caption>
                                             Part 2
@@ -77,7 +78,7 @@ function Projects () {
                         <Figure>
                             <Figure.Image 
                             alt="handEvaluator.png"
-                            src="/handEvaluator.png"           
+                            src={baseUrl + "/handEvaluator.png"}          
                             />
                             <Figure.Caption>
                             As you can see my coding style is very Object Oriented.
@@ -130,7 +131,7 @@ function Projects () {
 
                     </Col>
 
-                    <Col xs={0} sm={2}><a href="/" className="text-info bg-dark" style={{opacity:.9}}>Contact</a></Col>
+                    <Col xs={0} sm={2}><a href={baseUrl + "/"} className="text-info bg-dark" style={{opacity:.9}}>Contact</a></Col>
                     
                 </Row>
 

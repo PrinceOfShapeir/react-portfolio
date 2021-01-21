@@ -1,11 +1,15 @@
 import React, {Component} from 'react';
-import { OverlayTrigger,Tooltip, Carousel, Row, Col} from 'react-bootstrap';
+import { OverlayTrigger,Tooltip, Row, Col, Figure, Carousel} from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+let baseUrl = process.env.PUBLIC_URL; //does NOT include "/"
+
 class Home extends Component{
     componentDidMount(){
         //something
     }
 
     render() {
+
         return (
 
                 <div  className="mx-auto text-center">
@@ -16,65 +20,108 @@ class Home extends Component{
                     <Row>
                         <Col s={0} m={2}></Col>
                         <Col s={12} m={8}>
-                        <Carousel>
-                            <Carousel.Item>
-                                <OverlayTrigger
+
+                         <OverlayTrigger
                                     placement="right"
                                     delay={{ show: 250, hide: 400 }}
                                     overlay={
-                                        <Tooltip id={`tooltip`}>
+                                        <Tooltip id={`tooltip1`}>
                                         Click here to view the Projects page.
                                         </Tooltip>
                                     }
                                 >
-                                <a href="/projects">
+                                <a href={baseUrl + "/projects"}>
+
+                                    <Figure>
+                                        <Figure.Image 
+                                        alt="logo512.png"
+                                         src={baseUrl + "/logo512.png"}        
+                                        />
+                                        <Figure.Caption>
+                                            React Projects
+                                        </Figure.Caption>
+                                    </Figure>
+                                </a>
+                        </OverlayTrigger>
+                        <OverlayTrigger
+                                    placement="right"
+                                    delay={{ show: 250, hide: 400 }}
+                                    overlay={
+                                        <Tooltip id={`tooltip1`}>
+                                        Click here to view the Projects page.
+                                        </Tooltip>
+                                    }
+                                >
+                                <a href={baseUrl + "/projects"}>
+
+                                    <Figure>
+                                        <Figure.Image 
+                                        alt="logo512.png"
+                                        src={baseUrl + "/nodeLogo.png"}        
+                                        />
+                                        <Figure.Caption>
+                                            Code Samples
+                                        </Figure.Caption>
+                                    </Figure>
+                                </a>
+                        </OverlayTrigger>
+
+
+
+                        <>
+
+                           {/*
+                        <Carousel>
+                            <Carousel.Item>
+                                
+                                <a href={baseUrl + "/projects"}>
                                     <img
                                     className="d-block w-100 bg-dark"
-                                    src="logo512.png"
+                                    src={baseUrl + "/logo512.png"}
                                     alt="First slide"
                                     />
+                                     </a>
                                     <Carousel.Caption>
-                                    <h3 className="carousel-head">React Projects</h3>
                                     <p>See my projects!</p>
                                 </Carousel.Caption>
-                                </a>
-                                    </OverlayTrigger>
+                               
 
                             </Carousel.Item>
 
                             <Carousel.Item>
 
-                                <OverlayTrigger
-                                    placement="right"
-                                    delay={{ show: 250, hide: 400 }}
-                                    overlay={
-                                        <Tooltip id={`tooltip`}>
-                                        Code projects that don't require a frontend.
-                                        </Tooltip>
-                                    }
-                                >       
-                                    <a href="/projects">
+                                    <a href={baseUrl + "/projects"}>
                                         <img
                                         className="d-block w-100 bg-dark"
-                                        src="nodeLogo.png"
+                                        src={baseUrl + "/nodeLogo.png"}
                                         alt="Second slide"/>
+                                        </a>
                                      <Carousel.Caption>
-                                        <h3 className="carousel-head">Code Samples</h3>
+                                        
                                         <p>Code that runs.</p>
                                     </Carousel.Caption>
-                                    </a>
-                                </OverlayTrigger>
+                                    
+                               
                                 
                                 
 
                             </Carousel.Item>
-                        </Carousel>
+                           </Carousel>*/}</>
                         </Col>
                         <Col s={0} m={2}></Col>
                     </Row>
 
-
-                   
+                                {/*
+                   <Figure>
+                        <Figure.Image 
+                        alt="nodeLogo.png"
+                        src={baseUrl + "/nodeLogo.png"  }         
+                        />
+                        <Figure.Caption>
+                            Test Figure.
+                        </Figure.Caption>
+                    </Figure>
+                                */}
                     
 
                    

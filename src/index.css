@@ -14,36 +14,37 @@ code {
     monospace;
 }
 
-.carousel, .img {
+/*.carousel,*/ .img {
   width:auto;
   height:auto;
 }
+/*
 
 .carousel-item {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
+}*/
 .carousel-caption {
    left: 0;
-   position: relative;
+   position: absolute;
    text-align: center;
 }
 
 @media (max-width: 420px){
-  .carousel{
+  .carousel-caption{
     font-size: .1rem;
   }
 }
 @media (max-width: 720px){
-  .carousel{
+  .carousel-caption{
     font-size: .14rem;
   }
 }
 @media (min-width: 720px){
-  .carousel{
+  /*.carousel{
     width: 100%;
-  }
+  }*/
   .carousel-head {
     font-weight: 700;
     font-size: 5vh;

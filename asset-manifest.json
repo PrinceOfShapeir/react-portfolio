@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.d6c75895.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.b92fecf9.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.b92fecf9.chunk.js.map",
-    "runtime-main.js": "/react-portfolio/static/js/runtime-main.fa5e7615.js",
-    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.fa5e7615.js.map",
+    "main.js": "/react-portfolio/static/js/main.aaa9a687.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.aaa9a687.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.857cb7af.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.857cb7af.js.map",
     "static/css/2.1a02f21c.chunk.css": "/react-portfolio/static/css/2.1a02f21c.chunk.css",
-    "static/js/2.bb7c181e.chunk.js": "/react-portfolio/static/js/2.bb7c181e.chunk.js",
-    "static/js/2.bb7c181e.chunk.js.map": "/react-portfolio/static/js/2.bb7c181e.chunk.js.map",
-    "static/js/3.c1ff667d.chunk.js": "/react-portfolio/static/js/3.c1ff667d.chunk.js",
-    "static/js/3.c1ff667d.chunk.js.map": "/react-portfolio/static/js/3.c1ff667d.chunk.js.map",
+    "static/js/2.a76819ef.chunk.js": "/react-portfolio/static/js/2.a76819ef.chunk.js",
+    "static/js/2.a76819ef.chunk.js.map": "/react-portfolio/static/js/2.a76819ef.chunk.js.map",
+    "static/js/3.bf8381bf.chunk.js": "/react-portfolio/static/js/3.bf8381bf.chunk.js",
+    "static/js/3.bf8381bf.chunk.js.map": "/react-portfolio/static/js/3.bf8381bf.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
     "static/css/2.1a02f21c.chunk.css.map": "/react-portfolio/static/css/2.1a02f21c.chunk.css.map",
     "static/css/main.d6c75895.chunk.css.map": "/react-portfolio/static/css/main.d6c75895.chunk.css.map",
-    "static/js/2.bb7c181e.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.bb7c181e.chunk.js.LICENSE.txt",
+    "static/js/2.a76819ef.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.a76819ef.chunk.js.LICENSE.txt",
     "static/media/andy-holmes-LUpDjlJv4_c-unsplash.19ab3c98.jpg": "/react-portfolio/static/media/andy-holmes-LUpDjlJv4_c-unsplash.19ab3c98.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.fa5e7615.js",
+    "static/js/runtime-main.857cb7af.js",
     "static/css/2.1a02f21c.chunk.css",
-    "static/js/2.bb7c181e.chunk.js",
+    "static/js/2.a76819ef.chunk.js",
     "static/css/main.d6c75895.chunk.css",
-    "static/js/main.b92fecf9.chunk.js"
+    "static/js/main.aaa9a687.chunk.js"
   ]
 }

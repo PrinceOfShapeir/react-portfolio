@@ -22,6 +22,29 @@ function Projects () {
 
                         <h3>Free Online Menu App</h3>
 
+                        <Accordion>
+                            <Card>
+                                <Accordion.Toggle as={Card.Header} eventKey="0">
+                                Click Me!
+                                </Accordion.Toggle>
+                                <Accordion.Collapse eventKey="0">
+                                <Card.Body>
+                                    <Figure>
+                                        <Figure.Image 
+                                        alt="menu.png"
+                                        src={baseUrl + "/menu.png"  }         
+                                        />
+                                        <Figure.Caption>
+                                            Here you can see the basic customer view.
+                                        </Figure.Caption>
+                                    </Figure>
+                                </Card.Body>
+                                </Accordion.Collapse>
+                            </Card>
+                        </Accordion>
+
+                        <a href="https://github.com/PrinceOfShapeir/YourRestaurant">Github Link</a>
+
                         <p>This is a prototype online menu interface. Store owners can display and advertise a menu. The interface allows potential customers to select items and add them to their shopping list. To complete the transaction, the shopping list is exported to a preferred contact method. No transactions are handled by the application, this allows the store owner to use their preferred in house transaction method, and keep the full proceeds thereby.</p>
 
                         <p>The motivation for this app was the proliferation of commission based services which can take a hefty cut of transaction proceeds in an industry where margins are slim to begin with. Smaller businesses which do not see economies of scale from using high powered solutions, could benefit from a more minimalistic approach.</p>

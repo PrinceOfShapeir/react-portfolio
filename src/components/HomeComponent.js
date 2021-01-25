@@ -20,7 +20,7 @@ class Home extends Component{
                     <Row>
                         <Col s={0} m={2}></Col>
                         <Col s={12} m={8}>
-
+                        
                          <OverlayTrigger
                                     placement="right"
                                     delay={{ show: 250, hide: 400 }}
@@ -66,11 +66,10 @@ class Home extends Component{
                                 </a>
                         </OverlayTrigger>
 
-
-
+                                
                         <>
-
-                           {/*
+                                {/*
+                           
                         <Carousel>
                             <Carousel.Item>
                                 
@@ -106,7 +105,7 @@ class Home extends Component{
                                 
 
                             </Carousel.Item>
-                           </Carousel>*/}</>
+                                </Carousel>*/}</>
                         </Col>
                         <Col s={0} m={2}></Col>
                     </Row>

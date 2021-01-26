@@ -1,7 +1,10 @@
 import React, {Component} from 'react';
-import { OverlayTrigger,Tooltip, Row, Col, Figure, Carousel} from 'react-bootstrap';
+import { OverlayTrigger,Tooltip, Row, Col, Figure, Container, ProgressBar, Carousel} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Link from 'react-router-dom';
+import {RiLinkedinBoxFill, RiGithubLine} from 'react-icons/ri';
 let baseUrl = process.env.PUBLIC_URL; //does NOT include "/"
+
 
 class Home extends Component{
     componentDidMount(){
@@ -12,17 +15,29 @@ class Home extends Component{
 
         return (
 
-                <div  className="mx-auto text-center">
-                    
-                    <h1>About</h1>
+                <div  className="mx-0 text-center bg-primary">
+                    <ProgressBar striped variant="primary" now={100}/>
+                    <h1 className="bg-primary" style={{color: '#ebc21d'}}>About</h1>
+                    <ProgressBar striped variant="primary" now={100}/>
 
-                    <p>My name is Sean Farley. I am a full stack developer.</p>
-                    <Row>
-                        <Col s={0} m={2}></Col>
-                        <Col s={12} m={8}>
+                    <Container fluid className="bg-muted">
                         
-                         <OverlayTrigger
-                                    placement="right"
+                        <Row>
+                        <Col s={0} m={2} style={{
+                            background: 'linear-gradient(0deg, rgba(226,225,223,1) 0%, rgba(222,225,224,1) 56%, rgba(0,134,255,1) 100%)'
+                        }}></Col>
+                        <Col xs={12} s="auto" md="10" className="bg-dark text-light">
+
+                            
+                            <br />
+                            <p>   Hi, my name is Sean. I am a full stack developer and bootcamp graduate. My recent projects are built upon the MERN (Mongo, React, Express, Native) stack.</p>
+                            <p>My interests include gaming, science fiction, and artificial intelligence. In my spare time you can find me reading articles on machine learning and or watching Stargate SG-1.</p>
+
+                            
+                            <p>For professional inquiries, contact me on  <a href="https://www.linkedin.com/in/sean-farley/">Linked<RiLinkedinBoxFill /></a></p>
+                            <p>To collaborate or for technicial discussion, please follow me on <a href="https://github.com/PrinceOfShapeir">GitHub<RiGithubLine /></a></p>
+                            <OverlayTrigger
+                                    placement="auto-end"
                                     delay={{ show: 250, hide: 400 }}
                                     overlay={
                                         <Tooltip id={`tooltip1`}>
@@ -43,6 +58,8 @@ class Home extends Component{
                                     </Figure>
                                 </a>
                         </OverlayTrigger>
+
+                        {/*
                         <OverlayTrigger
                                     placement="right"
                                     delay={{ show: 250, hide: 400 }}
@@ -64,7 +81,9 @@ class Home extends Component{
                                         </Figure.Caption>
                                     </Figure>
                                 </a>
-                        </OverlayTrigger>
+                                </OverlayTrigger>
+                                
+                                */}
 
                                 
                         <>
@@ -107,7 +126,9 @@ class Home extends Component{
                             </Carousel.Item>
                                 </Carousel>*/}</>
                         </Col>
-                        <Col s={0} m={2}></Col>
+                        <Col s={0} m={2} style={{
+                            background: 'linear-gradient(0deg, rgba(226,225,223,1) 0%, rgba(222,225,224,1) 80%, rgba(0,134,255,1) 100%)'
+                        }}></Col>
                     </Row>
 
                                 {/*
@@ -123,7 +144,7 @@ class Home extends Component{
                                 */}
                     
 
-                   
+                   </Container>
                 </div>
 
         );

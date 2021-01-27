@@ -3,6 +3,7 @@ import { OverlayTrigger,Tooltip, Row, Col, Figure, Container, ProgressBar, Carou
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Link from 'react-router-dom';
 import {RiLinkedinBoxFill, RiGithubLine} from 'react-icons/ri';
+import 'animate.css/animate.min.css';
 let baseUrl = process.env.PUBLIC_URL; //does NOT include "/"
 
 
@@ -17,7 +18,7 @@ class Home extends Component{
 
                 <div  className="mx-0 text-center bg-primary">
                     <ProgressBar striped variant="primary" now={100}/>
-                    <h1 className="bg-primary" style={{color: '#ebc21d'}}>About</h1>
+                    <h1 className="bg-primary animate__animated animate__fadeInDown" style={{color: '#ebc21d'}}>About</h1>
                     <ProgressBar striped variant="primary" now={100}/>
 
                     <Container fluid className="bg-muted">
@@ -25,8 +26,8 @@ class Home extends Component{
                         <Row>
                         <Col s={0} m={2} style={{
                             background: 'linear-gradient(0deg, rgba(226,225,223,1) 0%, rgba(222,225,224,1) 56%, rgba(0,134,255,1) 100%)'
-                        }}></Col>
-                        <Col xs={12} s="auto" md="10" className="bg-dark text-light">
+                        }} className="animate__animated animate__fadeInRight"></Col>
+                        <Col xs={12} s="auto" md="10" className="bg-dark text-light animate__animated animate__fadeIn ">
 
                             
                             <br />
@@ -37,7 +38,8 @@ class Home extends Component{
                             <p>For professional inquiries, contact me on  <a href="https://www.linkedin.com/in/sean-farley/">Linked<RiLinkedinBoxFill /></a></p>
                             <p>To collaborate or for technicial discussion, please follow me on <a href="https://github.com/PrinceOfShapeir">GitHub<RiGithubLine /></a></p>
                             <OverlayTrigger
-                                    placement="auto-end"
+                                    
+                                    placement="right"
                                     delay={{ show: 250, hide: 400 }}
                                     overlay={
                                         <Tooltip id={`tooltip1`}>
@@ -47,7 +49,7 @@ class Home extends Component{
                                 >
                                 <a href={baseUrl + "/projects"}>
 
-                                    <Figure>
+                                    <Figure className="animate__animated animate__fadeInUp">
                                         <Figure.Image 
                                         alt="logo512.png"
                                          src={baseUrl + "/logo512.png"}        
@@ -128,7 +130,7 @@ class Home extends Component{
                         </Col>
                         <Col s={0} m={2} style={{
                             background: 'linear-gradient(0deg, rgba(226,225,223,1) 0%, rgba(222,225,224,1) 80%, rgba(0,134,255,1) 100%)'
-                        }}></Col>
+                        }} className="animate__animated animate__fadeInLeft "></Col>
                     </Row>
 
                                 {/*

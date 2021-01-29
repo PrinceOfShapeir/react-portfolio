@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import { OverlayTrigger,Tooltip, Row, Col, Figure, Container, ProgressBar, Carousel} from 'react-bootstrap';
+import { OverlayTrigger,Tooltip, Row, Col, Figure, Container, ProgressBar, /*Carousel*/} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Link from 'react-router-dom';
+//import Link from 'react-router-dom';
 import {RiLinkedinBoxFill, RiGithubLine} from 'react-icons/ri';
 import 'animate.css/animate.min.css';
 let baseUrl = process.env.PUBLIC_URL; //does NOT include "/"
@@ -40,7 +40,7 @@ class Home extends Component{
                             </div>
                             <OverlayTrigger
                                     
-                                    placement="right"
+                                    placement="top"
                                     delay={{ show: 250, hide: 400 }}
                                     overlay={
                                         <Tooltip id={`tooltip1`}>

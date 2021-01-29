@@ -154,7 +154,7 @@ function Projects () {
 
                     </Col>
 
-                    <Col xs={0} sm={2}><a href={baseUrl + "/"} className="text-info bg-dark" style={{opacity:.9}}>Contact</a></Col>
+                    <Col xs={0} sm={2}><a href={baseUrl + "/#contact"} className="text-info bg-dark" style={{opacity:.9}}>Contact</a></Col>
                     
                 </Row>
 

@@ -31,12 +31,13 @@ class Home extends Component{
 
                             
                             <br />
-                            <p>   Hi, my name is Sean. I am a full stack developer and bootcamp graduate. My recent projects are built upon the MERN (Mongo, React, Express, Native) stack.</p>
-                            <p>My interests include gaming, science fiction, and artificial intelligence. In my spare time you can find me reading articles on machine learning and or watching Stargate SG-1.</p>
+                            <p>   Hi, my name is Sean. I am a full stack developer and bootcamp graduate. My recent projects are built upon the MERN (Mongo, React, Express, Node) stack.</p>
+                            <p>My interests include gaming, science fiction, history, and artificial intelligence. In my spare time you can find me reading articles on machine learning and or watching Stargate SG-1.</p>
 
-                            
-                            <p>For professional inquiries, contact me on  <a href="https://www.linkedin.com/in/sean-farley/">Linked<RiLinkedinBoxFill /></a></p>
-                            <p>To collaborate or for technicial discussion, please follow me on <a href="https://github.com/PrinceOfShapeir">GitHub<RiGithubLine /></a></p>
+                            <div id="contact">
+                                <p>For professional inquiries, contact me on  <a href="https://www.linkedin.com/in/sean-farley/">Linked<RiLinkedinBoxFill /></a></p>
+                                <p>To collaborate or for technicial discussion, please follow me on <a href="https://github.com/PrinceOfShapeir">GitHub<RiGithubLine /></a></p>
+                            </div>
                             <OverlayTrigger
                                     
                                     placement="right"

@@ -18,7 +18,7 @@ function Projects () {
                     <Col xs={0} sm={2}><a href={baseUrl + "/"} className="text-primary bg-light" style={{opacity: .9}}>Home</a></Col>
                     <Col xs className="bg-light" style={{opacity: .9}}>
                     <h1>Projects</h1>
-
+                        <br />
 
                         <h3>Free Online Menu App</h3>
 
@@ -49,7 +49,7 @@ function Projects () {
 
                         <p>The motivation for this app was the proliferation of commission based services which can take a hefty cut of transaction proceeds in an industry where margins are slim to begin with. Smaller businesses which do not see economies of scale from using high powered solutions, could benefit from a more minimalistic approach.</p>
 
-
+                        <br />
                         <h3>Phone Number Converter</h3>
 
                         <Accordion>
@@ -93,7 +93,7 @@ function Projects () {
                         <a href="https://github.com/PrinceOfShapeir/PhoneNumberTranslator">Github Link</a>
                         <p>Tired of phone number acronyms when you're using a nonstandard keypad? This app is here to help. Simply type in the acronym and the app tells you the 9-digit code associated with that acronym. Built with React Native.</p>
                         
-
+                        <br />
                         <h3>Poker Hand Calculator</h3>
 
                         <p>Given any seven cards, return the absolute strength of that hand according to Texas Holdem rules. If multiple hands are calculated, the maximum value should correspond to the winning hand.</p>
@@ -109,6 +109,8 @@ function Projects () {
                         </Figure>        
                         <a href="https://github.com/PrinceOfShapeir/PokerCalculator">Test out the source code on Github.</a>
 
+                        <br /> 
+                        <br />
 
                         <h3>Battletoes</h3>
 

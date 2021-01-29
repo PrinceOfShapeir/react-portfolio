@@ -20,7 +20,9 @@ function Projects () {
                 <Row>
 
                     <Col xs={0} sm={2}><a href={baseUrl + "/"} className="text-primary bg-light animate__animated animate__fadeInDown" style={{opacity: .9}}>Home</a></Col>
-                    <Col xs className="bg-light animate__animated animate__fadeIn" style={{opacity: .9}}>
+                    <Col xs className="bg-light fade-in" style={{
+                        
+                        opacity: .9}}>
                     <h1>Projects</h1>
                         <br />
 

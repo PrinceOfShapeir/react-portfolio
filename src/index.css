@@ -10,7 +10,20 @@ body {
   width: "100%";
 }
 
+.fade-in {
 
+  animation: fadeOpaque ease 1s;
+}
+@keyframes fadeOpaque {
+
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: .9;
+  }
+
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

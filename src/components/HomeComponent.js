@@ -16,16 +16,20 @@ class Home extends Component{
 
         return (
 
-                <div  className="mx-0 text-center bg-primary">
-                    <ProgressBar striped variant="primary" now={100}/>
-                    <h1 className="bg-primary animate__animated animate__fadeInDown" style={{color: '#ebc21d'}}>About</h1>
-                    <ProgressBar striped variant="primary" now={100}/>
+                <div  className="mx-0 text-center" style={{height: "100vh",
+                background: 'rgba(226,225,223)' }}>
+                    <div className="bg-primary">
+                        <ProgressBar striped variant="primary" now={100}/>
+                        <h1 className="bg-primary animate__animated animate__fadeInDown" style={{color: '#ebc21d'}}>About</h1>
+                        <ProgressBar striped variant="primary" now={100}/>
+                        </div>
+                        
 
                     <Container fluid className="bg-muted">
                         
-                        <Row>
+                        <Row >
                         <Col s={0} m={2} style={{
-                            background: 'linear-gradient(0deg, rgba(226,225,223,1) 0%, rgba(222,225,224,1) 56%, rgba(0,134,255,1) 100%)'
+                            background: 'linear-gradient(0deg, rgba(226,225,223,1) 0%, rgba(222,225,224,1) 56%, rgba(0,134,255,1) 100%)',
                         }} className="animate__animated animate__fadeInRight"></Col>
                         <Col xs={12} s="auto" md="10" className="bg-dark text-light animate__animated animate__fadeIn ">
 
@@ -128,6 +132,7 @@ class Home extends Component{
 
                             </Carousel.Item>
                                 </Carousel>*/}</>
+
                         </Col>
                         <Col s={0} m={2} style={{
                             background: 'linear-gradient(0deg, rgba(226,225,223,1) 0%, rgba(222,225,224,1) 80%, rgba(0,134,255,1) 100%)'

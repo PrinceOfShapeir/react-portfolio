@@ -2,6 +2,7 @@
 import React from 'react';
 import {Figure, Row, Col, Container, Accordion, Card} from 'react-bootstrap';
 import background from '../andy-holmes-LUpDjlJv4_c-unsplash.jpg'
+import 'animate.css/animate.min.css';
 
 let baseUrl = process.env.PUBLIC_URL;
 function Projects () {
@@ -10,13 +11,16 @@ function Projects () {
 
 
         <div className="text-center" style={{
-            backgroundImage: `url(${background})`
+            backgroundImage: `url(${background})`,
+            backgroundColor: "black",
+            height: "100vh"
         }}>
             <Container fluid>
                 <Row>
 
-                    <Col xs={0} sm={2}><a href={baseUrl + "/"} className="text-primary bg-light" style={{opacity: .9}}>Home</a></Col>
-                    <Col xs className="bg-light" style={{opacity: .9}}>
+                    <Col xs={0} sm={2}><a href={baseUrl + "/"} className="text-primary bg-light " style={{opacity: .9}}>Home</a></Col>
+                    <Col xs className="bg-light animate__animated animate__fadeIn" style={{opacity: .9,
+                    height: "100vh"}}>
                     <h1>Projects</h1>
                         <br />
 

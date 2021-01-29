@@ -31,7 +31,8 @@ class Home extends Component{
                         <Col s={0} m={2} style={{
                             background: 'linear-gradient(0deg, rgba(226,225,223,1) 0%, rgba(222,225,224,1) 56%, rgba(0,134,255,1) 100%)',
                         }} className="animate__animated animate__fadeInRight"></Col>
-                        <Col xs={12} s="auto" md="10" className="bg-dark text-light animate__animated animate__fadeIn ">
+                        <Col xs={12} s="auto" md="10" className="bg-dark text-light animate__animated animate__fadeIn "
+                        style={{height: '100%', minHeight: '100vh'}}>
 
                             
                             <br />

@@ -9,18 +9,18 @@ function Projects () {
 
     return (
 
-
+        
         <div className="text-center" style={{
             backgroundImage: `url(${background})`,
             backgroundColor: "black",
-            height: "100vh"
+            minHeight: "100vh",
+            height: '100%'
         }}>
             <Container fluid>
                 <Row>
 
-                    <Col xs={0} sm={2}><a href={baseUrl + "/"} className="text-primary bg-light " style={{opacity: .9}}>Home</a></Col>
-                    <Col xs className="bg-light animate__animated animate__fadeIn" style={{opacity: .9,
-                    height: "100vh"}}>
+                    <Col xs={0} sm={2}><a href={baseUrl + "/"} className="text-primary bg-light animate__animated animate__fadeInDown" style={{opacity: .9}}>Home</a></Col>
+                    <Col xs className="bg-light animate__animated animate__fadeIn" style={{opacity: .9}}>
                     <h1>Projects</h1>
                         <br />
 
@@ -160,7 +160,7 @@ function Projects () {
 
                     </Col>
 
-                    <Col xs={0} sm={2}><a href={baseUrl + "/#contact"} className="text-info bg-dark" style={{opacity:.9}}>Contact</a></Col>
+                    <Col xs={0} sm={2}><a href={baseUrl + "/#contact"} className="text-info bg-dark animate__animated animate__fadeInDown" style={{opacity:.9}}>Contact</a></Col>
                     
                 </Row>
 

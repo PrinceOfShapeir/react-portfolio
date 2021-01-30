@@ -45,7 +45,7 @@ class Home extends Component{
                             </div>
                             <OverlayTrigger
                                     
-                                    placement="top"
+                                    placement="right"
                                     delay={{ show: 250, hide: 400 }}
                                     overlay={
                                         <Tooltip id={`tooltip1`}>
@@ -56,13 +56,15 @@ class Home extends Component{
                                 <a href={baseUrl + "/projects"}>
 
                                     <Figure className="animate__animated animate__fadeInUp">
+                                        <Figure.Caption>
+                                            <h3>React Projects
+                                                </h3>
+                                        </Figure.Caption>
                                         <Figure.Image 
                                         alt="logo512.png"
                                          src={baseUrl + "/logo512.png"}        
                                         />
-                                        <Figure.Caption>
-                                            React Projects
-                                        </Figure.Caption>
+
                                     </Figure>
                                 </a>
                         </OverlayTrigger>

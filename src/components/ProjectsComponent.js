@@ -113,7 +113,7 @@ function Projects () {
                             </Figure.Caption>
                         </Figure>        
                         <a href="https://github.com/PrinceOfShapeir/PokerCalculator">Test out the source code on Github.</a>
-
+                        <a href="https://princeofshapeir.github.io/poker-calculator/">Live</a>
                         <br /> 
                         <br />
 

@@ -102,7 +102,7 @@ function Projects () {
                         <h3>Poker Hand Calculator</h3>
 
                         <p>Given any seven cards, return the absolute strength of that hand according to Texas Holdem rules. If multiple hands are calculated, the maximum value should correspond to the winning hand.</p>
-
+                        <p><a href="https://princeofshapeir.github.io/poker-calculator/">Live Version</a></p>
                         <Figure>
                             <Figure.Image 
                             alt="handEvaluator.png"
@@ -113,7 +113,7 @@ function Projects () {
                             </Figure.Caption>
                         </Figure>        
                         <a href="https://github.com/PrinceOfShapeir/PokerCalculator">Test out the source code on Github.</a>
-                        <a href="https://princeofshapeir.github.io/poker-calculator/">Live</a>
+                        
                         <br /> 
                         <br />
 

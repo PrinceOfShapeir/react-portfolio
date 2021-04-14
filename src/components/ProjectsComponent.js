@@ -119,7 +119,8 @@ function Projects () {
 
                         <h3>Battletoes</h3>
 
-                        <a href="https://battletoes.firebaseapp.com">Click Here for a Live Version</a>
+                        {//<a href="https://battletoes.firebaseapp.com" style={{ textDecorationLine: 'line-through' }}>Click Here for a Live Version</a>
+                        }
 
                         <p>Play against a neural net and watch it learn from its mistakes. Game features persistent stat tracking as well as file upload and download. Powered by Firebase Firestore, JQuery and Express.</p>
 

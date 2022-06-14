@@ -23,6 +23,39 @@ function Projects () {
                         
                         opacity: .9}}>
                     <h1>Projects</h1>
+                    <br />
+
+                    <h3>4X Style Demo</h3>
+
+                        <Accordion>
+                            <Card>
+                                <Accordion.Toggle as={Card.Header} eventKey="0">
+                                Click Me!
+                                </Accordion.Toggle>
+                                <Accordion.Collapse eventKey="0">
+                                <Card.Body>
+                                    <Figure>
+                                        <Figure.Image 
+                                        alt="4xlite.png"
+                                        src={baseUrl + "/4xlite.png"  }         
+                                        />
+                                        <Figure.Caption>
+                                            A standard square grid, which counterintuitively has the same number of adjacencies as a hexagonal grid. Go figure!
+                                        </Figure.Caption>
+                                    </Figure>
+                                </Card.Body>
+                                </Accordion.Collapse>
+                            </Card>
+                        </Accordion>
+
+                        <a href="https://princeofshapeir.github.io/4xlite/">Live Link</a>
+
+                        <p>For August's Mintbean hackathon I decided to do something a little different. Although civilization games were briefly mentioned in the prompt, as an advanced topic no less, it appears most of the other submissions opted for the side scroller pastiche. I'm not judging, I was simply raised on different genres. 
+                        </p>
+
+                        <p>
+                            The demo is playable through the first 60 turns. The player starts with world generation, with an adjustable sliding range between archipelago and pangaea. The purpose, or conceit rather, of the game is to guide one's tribe through the disasters that periodically reset the playing field. This simulates the reality that civilization was not founded at a singular point in history, but rather many times in many places, with most attempts ending in disaster. To be the first then, is also to be the last, in a long and storied legacy.
+                            </p>
                         <br />
 
                         <h3>Free Online Menu App</h3>
